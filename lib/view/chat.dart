@@ -12,7 +12,7 @@ class _ChatState extends State<Chat> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("chat"),
+        title: const Text("chat check"),
       ),
       body: ListView.builder(
         itemCount: 3,
