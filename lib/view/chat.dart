@@ -10,6 +10,15 @@ class Chat extends StatefulWidget {
 class _ChatState extends State<Chat> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("chat"),
+      ),
+      body: ListView.builder(
+        itemCount: 3,
+          itemBuilder: (context,index){
+        return const ListTile(leading: Text("List Tile"),);
+      }),
+    );
   }
 }
